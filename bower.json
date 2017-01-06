@@ -1,11 +1,11 @@
 {
-  "name": "LUI-3_forms-extras",
-  "homepage": "https://github.com/LUI-3/forms-extras",
+  "name": "LUI-3_messages",
+  "homepage": "https://github.com/LUI-3/messages",
   "authors": [
     "wufiii@gmail.com"
   ],
-  "description": "Responsive front-end website framework - Forms - extras component",
-  "main": "less/forms-extras.router.less",
+  "description": "Responsive front-end website framework - Messages component",
+  "main": "less/messages.router.less",
   "keywords": [
     "responsive",
     "front-end",
@@ -14,8 +14,7 @@
     "web"
   ],
   "dependencies": {
-    "LUI-3_base": ">=3.0.0",
-    "LUI-3_forms-base": ">=3.0.0"
+    "LUI-3_base": ">=3.0.0"
   },
   "license": "MIT",
   "ignore": [

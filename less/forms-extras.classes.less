@@ -1,0 +1,31 @@
+// LUI-3
+// FORM - CLASSNAMES
+
+
+
+//
+// JQUERY SELECTS
+//
+.ui-selectmenu-button when (@lui_form_extras_jquery_select_classname = true) {
+	.lui.form.item.value.select-jquery.this();
+}
+.ui-js-dropdown when (@lui_form_extras_jquery_select_classname = true){
+	.lui.form.item.value.select-jquery.dropdown();
+}
+
+
+//
+// JQUERY DATEPICKER
+//
+.ui-datepicker when (@lui_form_extras_jquery_datepicker_classname = true){
+	.lui.form.item.value.datepicker();
+}
+
+
+// JQUERY TAGSBOX
+// TODO: IMPLEMENT
+/*
+.@{lui_class_prefix}_tagsbox when (@lui_form_tagsbox = true){
+	.lui.form.item.value.tagsbox();
+}
+*/

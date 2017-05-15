@@ -16,29 +16,13 @@
 @lui_form_extras_jquery_datepicker_mixin:		true;
 
 
-// TAGSBOX SETTINGS
-/*
-@lui_form_tagsbox_item_bg_default_color:		#ededed;
-@lui_form_tagsbox_item_text_default_color:		#414141;
-@lui_form_tagsbox_item_close_default_color:		#e60d0d;
 
-@lui_form_tagsbox_item_primary_enabled:			true;
-@lui_form_tagsbox_item_bg_primary_color:		#34aaed;
-@lui_form_tagsbox_item_text_primary_color:		white;
-@lui_form_tagsbox_item_close_primary_color:		black;
-
-@lui_form_tagsbox_item_positive_enabled:		true;
-@lui_form_tagsbox_item_bg_positive_color:		#45bd0a;
-@lui_form_tagsbox_item_text_positive_color:		white;
-@lui_form_tagsbox_item_close_positive_color:	black;
-
-@lui_form_tagsbox_item_negative_enabled:		true;
-@lui_form_tagsbox_item_bg_negative_color:		#e60d0d;
-@lui_form_tagsbox_item_text_negative_color:		white;
-@lui_form_tagsbox_item_close_negative_color:	black;
-
-@lui_form_tagsbox_item_warning_enabled:			true;
-@lui_form_tagsbox_item_bg_warning_color:		#ee8e04;
-@lui_form_tagsbox_item_text_warning_color:		white;
-@lui_form_tagsbox_item_close_warning_color:		black;
-*/
+// DEBUG MODE - CONFIG VALUES
+.lui_config_values when (@lui_debug = true){
+	--lui_forms-extras_config: "LUI-3_forms-extras/less/forms-extras.config.less";
+	--lui_form_extras_mixins: @lui_form_extras_mixins;
+	--lui_form_extras_jquery_select_classname: @lui_form_extras_jquery_select_classname;
+	--lui_form_extras_jquery_select_mixin: @lui_form_extras_jquery_select_mixin;
+	--lui_form_extras_jquery_datepicker_classname: @lui_form_extras_jquery_datepicker_classname;
+	--lui_form_extras_jquery_datepicker_mixin: @lui_form_extras_jquery_datepicker_mixin;
+}
